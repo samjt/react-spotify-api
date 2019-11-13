@@ -28,6 +28,10 @@ import {
 } from './User';
 import { Search, useSearch } from './Search';
 
+// Api Requests
+import ApiRequest from './ApiRequest/ApiRequest'
+import useApiRequest from './ApiRequest/useApiRequest'
+
 // Context
 import SpotifyApiContext from './context';
 
@@ -61,6 +65,9 @@ export { Search };
 
 // Hooks
 export { useArtist, useTrack, useAlbum, useUser, useSearch };
+
+// ApiRequest
+export { useApiRequest, ApiRequest };
 
 // Context
 export { SpotifyApiContext };
